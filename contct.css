@@ -1,0 +1,101 @@
+    
+body 
+{
+    background-image: url(geometry.webp);
+    background-repeat:no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+   background-size: cover;
+}
+nav{
+    background-color: rgb(9, 20, 75);
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.navbar .active
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(81, 10, 223);
+}
+
+.navbar-toggler-icon {
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+
+.dropdown-menu.dropdown-item:hover
+{
+    color: rgb(11, 21, 30);
+    background-color: aqua;
+}
+.dropdown-menu
+{
+    background-color: aqua;
+}
+
+ul li a:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: rgba(32, 162, 242, 0.213);
+}
+.navbar .active
+{
+    color: rgb(16, 74, 219);
+}
+
+.nav-item li a
+{
+    color: rgb(251, 251, 251);
+}
+
+ul li a
+{
+    background-color: rgb(68, 0, 255);
+    color: rgb(22, 22, 23);
+}
+
+.navbar:hover{
+    color: rgb(86, 170, 249);
+}
+
+
+.fa-facebook:hover
+{
+    color: rgb(16, 74, 219);
+}
+
+.fa-instagram:hover
+{
+    color: rgb(220, 14, 127);
+
+}
+.fa-youtube:hover
+{
+    color: rgb(234, 18, 18);
+}
+.fa-linkedin:hover
+{
+    color: rgb(19, 81, 237);
+}
+.fa-envelope:hover
+{
+    color: rgb(19, 179, 237);
+}
+
+.edu_img {
+    width: 100%; /* Full width for mobile */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper alignment within the container */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* For desktop screens */
+@media (min-width: 768px) {
+    .edu_img {
+        width: 80%; /* Adjust width for larger screens */
+    }
+}

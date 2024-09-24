@@ -1,0 +1,645 @@
+body
+{
+    /*background-color: rgb(120, 203, 174)*/
+   /* background-image:url("im5.jpg");*/
+    background-image:url("h4.jpg");
+
+    background-repeat:no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+   background-size: cover;
+    color: aliceblue;
+    padding: 0;
+    object-fit: cover;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+}
+
+.port
+{
+    margin-left: 120px;
+}
+.d1
+{
+    /*background-image:url("e1.jpg");*/
+    background-color: #27036b;
+
+
+}
+.d2
+{
+    background-color: black;
+    
+    height: 10px;
+}
+
+header
+{
+   height :40px;
+   color: rgb(255, 255, 255);
+   padding: 10px 0;
+   text-align:center;
+   top: 0;
+   position:relative;
+   max-height:max-content;
+   font-size: xx-large;
+  /* background-color: rgb(73, 1, 42);*/
+   margin-top: auto;
+}
+.h11
+{
+ background-color: rgb(39, 1, 1);
+ margin: 30px;
+ background-image: url(e1.jpg);
+}
+
+.D1
+{
+    display:flex;
+    background-color: rgb(65, 27, 60);
+    margin: 30px;
+    background-image: url(g1.jpg);
+    
+    
+    
+
+}
+
+.d3
+{
+    margin: 30px;
+    max-width: fit-content;
+    display: block;
+  text-align: justify;
+
+
+}
+
+.d4
+{
+    margin: 30px;
+    text-align: justify;
+    display: block;
+
+}
+
+.list2
+{
+    list-style-type:square;
+}
+
+.list3
+{
+    list-style-type:square;
+}
+
+.d5
+{
+    margin: 50px;
+    text-align: justify;
+    display: block;
+    background-image: url(d3.avif);
+    background-color: rgb(48, 4, 72);
+   
+}
+
+.d52
+{
+    margin: 50px;
+}
+
+.d6
+{
+    margin: 30px;
+    text-align: justify;
+    display:flex;
+    /*background-color: rgb(48, 4, 72);*/
+    background-image:url("g3.jpg");
+
+}
+
+.d62
+{
+    margin: 30px;
+    display: flex;
+
+}
+
+.d64
+{
+    margin-left: 200px;
+}
+
+.list5
+{
+    list-style-type:square;
+    text-align: justify;
+    text-indent: 2px;
+    text-justify:distribute;
+}
+
+.space
+{
+    margin: 0 5px;
+}
+
+.d65
+{
+    margin-left: 180px;
+}
+
+.d7
+{
+    margin: 30px;
+    text-align: justify;
+    display:block;
+    /*background-color: rgb(48, 4, 72);*/
+    background-image:url("d4.webp");
+    background: rgba(53, 45, 45, 0.1);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+
+}
+
+.d72
+{
+    margin: 40px;
+    background: rgba(77, 68, 68, 0.1);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+}
+
+.div4
+{
+    margin: 30px;
+    text-align: justify;
+    display:block;
+    background-image:url("e2.jpeg");
+}
+.d8
+{
+    margin: 30px;
+    text-align: justify;
+    display:block;
+        /*background-color: rgb(48, 4, 72);*/
+  /*  background-image:url("e2.jpeg");*/
+    background-size: cover;
+    background: rgba(53, 45, 45, 0.1);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+
+
+}
+
+.d82
+{
+    margin: 40px;
+    background: rgba(77, 68, 68, 0.1);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+}
+
+.d9
+{
+    margin: 30px;
+    text-align: justify;
+    display:block;    
+    /*background-color: rgb(48, 4, 72);*/
+   /* background-image:url("e3.jpg");*/
+    background-size: cover;
+    background: rgba(53, 45, 45, 0.1);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+
+
+}
+
+.d92{
+    margin: 40px;
+    background: rgba(77, 68, 68, 0.1);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+}
+
+.d10
+{
+    margin: 30px;
+    text-align: justify;
+    display:block;
+    /*background-color: rgb(48, 4, 72);*/
+    /*background-image:url("e1.jpg");*/
+    background-size: cover;
+    background: rgba(53, 45, 45, 0.1);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+
+
+}
+
+.d102{
+    margin: 40px;
+    background: rgba(23, 18, 18, 0.1);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+}
+
+.bim{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    float: right;
+  
+}
+.im{
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+    
+}
+
+.bim2{
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    float: right;
+   
+
+}
+
+.im2
+{
+    max-width: 50px;
+    max-height: 50px;
+    margin-right:px;
+    background-color: white;
+    margin-right: 10px;
+    
+    
+}
+
+.dim{
+    max-width: fit-content;
+    background-color: black;
+}
+
+.di1
+{
+ background-image: url(e1.jpg);
+}
+.im3
+{
+    width: 50px;
+    height: 37px;
+    position: relative;
+
+    margin-left:460px ;
+}
+
+.im4
+{
+    width: 50px;
+    height: 47px;
+    position: relative;
+   margin-bottom: 50px;
+    margin-left: 40px;
+ 
+
+}
+
+.im5
+{
+    width: 50px;
+    height: 47px;
+    position: relative;
+   
+   
+    
+}
+
+.di2
+{
+    display: block;
+  text-align: center;
+
+}
+
+.im6
+{
+    width: 50px;
+
+    position: relative;
+   
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center the icons vertically */
+}
+
+/* Adjust the size of the icons if needed */
+.im3, .im4, .im5, .im6 {
+    width: 50px;
+    height: auto; /* Adjusts height proportionally to width */
+    margin: 0 15px; /* Adjust the margin between icons */
+}
+
+.im6{
+    height: 42px;
+}
+
+.navi
+{
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+
+.navi ol
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: solid;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(36, 36, 102);
+}
+.navi a
+{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    float: right;
+    padding: 15px 15px;
+
+}
+
+.d2
+{
+    background-color: black;
+}
+ol li a:hover {
+    background-color: #7f88fc;
+    color: #000000; /* Change the text color on hover */
+}
+
+.div2{
+    display: flex;
+}
+.div2im
+{
+    margin: 20px;
+    background-color: #250236;
+}
+.sa1
+{
+    margin: 30px;
+    width: 350px;
+    height: 450px;
+
+}
+
+.h112
+{
+    margin: 0px;
+}
+
+.pul
+{
+    justify-content: center
+}
+.d1
+{
+    position: fixed;
+    width: 100%;
+    z-index: 999; 
+    
+}
+nav{
+    
+    position: fixed;
+    width: 100%;
+    margin-top: 60px;
+    top: 0;
+    z-index: 999; 
+    
+}
+
+.navi a {
+    text-decoration: none;
+    
+  }
+  
+  .navi a.active {
+    background-color: rgb(24, 88, 249);
+  }
+
+.pro
+{
+    background-image: url(c9.jpg);
+    margin: 50px;
+    background-attachment: fixed;
+}
+
+.ac1,.ac2,.ac3,.ac4
+  {
+display: flex;
+/*background-color: #1d0440;*/
+background: rgba(255, 255, 255, 0.1);  /* white color with 10% opacity */
+backdrop-filter: blur(5px);  /* blurring the background elements */
+margin: 50px;
+
+  }
+.dmi{
+    width: 300px;
+    height: 230px;
+
+  }
+
+.dm1{
+    margin: 40px;
+}
+
+.dm2{
+    margin: 40px;
+}
+
+
+/*.ac2
+  {
+display: flex;
+background-color: #2d095f;
+margin: 50px;
+
+  }*/
+.pj{
+    width: 300px;
+    height: 250px;
+
+  }
+
+.pj1{
+    margin: 40px;
+}
+
+.pj2{
+    margin: 40px;
+}
+
+
+/*.ac3
+  {
+display: flex;
+background-color: #2d095f;
+margin: 50px;
+
+  }*/
+.st{
+    width: 300px;
+    height: 250px;
+
+  }
+
+.st1{
+    margin: 40px;
+}
+
+.st2{
+    margin: 40px;
+}
+
+/*.ac4
+  {
+display: flex;
+background-color: #2d095f;
+margin: 50px;
+
+  }*/
+.vt{
+    width: 300px;
+    height: 250px;
+
+  }
+
+.v1{
+    margin: 40px;
+}
+
+.v2{
+    margin: 40px;
+}
+
+.ed
+{
+    margin: 50px;
+    background-image: url(edu6.jpg);
+ 
+}
+
+.ed2
+{
+   margin-left: 150px;
+}
+
+.journal{
+    display: flex;
+}
+
+
+.s4
+{
+    margin: 50px;
+    width: 400px;
+    height: 500px;
+}
+
+.publicat
+{
+    /*background-color: rgb(120, 203, 174)*/
+   /* background-image:url("im5.jpg");*/
+   background-image:url("bk3.jpg");
+
+   background-repeat:no-repeat;
+   margin: 0;
+   background-attachment: fixed;
+  background-size: cover;
+   color: aliceblue;
+   padding: 0;
+   object-fit: cover;
+   padding: 0%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+
+}
+
+.d13
+{
+    
+    justify-content: center;
+   text-decoration-color: ;
+}
+
+.d14
+{
+    background: rgba(255, 255, 255, 0.1);  /* white color with 10% opacity */
+  backdrop-filter: blur(5px);
+}
+
+.j1
+{
+    margin: 50px;
+}
+.j2{
+margin: 50px;
+font-size: xx-large;
+margin-left: 100px;
+}
+
+.ab1{
+    display: flex;
+    margin: 50px;
+}
+.abt{
+    background-image: url(bk6.jpg);
+}
+
+.abim{
+    margin: 10px;
+    width: 400px;
+    height: 500px;
+}
+.abim2{
+    margin: 40px;
+    width: 400px;
+    height: 500px;
+}
+
+.mir
+{
+    background: rgba(255, 255, 255, 0.1);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+}
+
+.ab1
+{
+    background: rgba(53, 45, 45, 0.1);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+}
+
+.ab2{
+    margin: 70px;
+}
+
+.ab22
+{
+    margin: 60px;
+}
+
+.ab2
+{
+    background: rgba(255, 255, 255, 0.1);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+}
+
+
+.ab22
+{
+    background: rgba(71, 59, 59, 0.165);  /* white color with 10% opacity */
+    backdrop-filter: blur(5px);  /* blurring the background elements */
+}

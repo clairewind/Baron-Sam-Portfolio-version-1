@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Baron Sam Portfolio website along with his educational journey">
+    <meta name="keywords" content="Baron Sam, Porfolio, website, baron, sam, professor, associate professor, assistant professor,B Baron Sam, Baron sam portfolio">
+    <title>Baron Sam Portfolio</title>
+    <link rel="stylesheet" href="foli.css">
+    <meta name="author" content="Claire Rebecca J">
+    <script>
+        function myfunc()
+            {
+                alert("Use desktop site or use it in Landscape mode");
+                 window.onload = displayAlert;
+            }
+    </script>
+</head>
+
+<body onload="myfunc()">
+ <header class="d1">  
+ <div class="d1">
+    <b class="port">PORTFOLIO</b>
+    
+   
+    <button title="Guide: Baron Sam" class="bim">
+        <img src="guide.jpg" alt="Guide" class="im">
+        </button>
+        <button title="Author: Claire Rebecca" class="bim2">
+            <div class="dim"><img src="author2.webp" alt="Author" class="im2"></div>
+        </button>
+ </div>
+</header> 
+<section>
+<div class="d2">
+<nav>
+    <div class="navi">
+        <b><ol>
+            <li class="c"><a href="about.html">About</a></li>
+            <li class="c"><a href="publications.html">Publications</a></li>
+            <li class="c"><a href="education.html">Education</a></li>
+            <li class="c"><a href="Academics.html">Academic Experience</a></li>
+            <li class="c"><a class="active" href="index.html">Home</a></li>
+
+            
+        </ol></b>
+    </div>
+</nav> </div>
+<script>
+    // Get all navbar links
+    var navbarLinks = document.querySelectorAll('.navi a');
+    
+    function removeActiveClass() {
+  for (var i = 0; i < navbarLinks.length; i++) {
+    navbarLinks[i].classList.remove('active');
+  }
+}
+
+// Add event listener to each link
+for (var i = 0; i < navbarLinks.length; i++) {
+  navbarLinks[i].addEventListener('click', function(event) {
+    // Prevent default action
+    event.preventDefault();
+
+    // Remove 'active' class from all links
+    removeActiveClass();
+
+    // Add 'active' class to clicked link
+    this.classList.add('active');
+
+    // Navigate to the link
+    window.location.href = this.href;
+  });
+}
+</script>
+
+<br><br>
+
+</div><br><br><br><br>
+<br><br><div  class="h11">
+    <!-- Here an image will be displayed-->
+    <br>
+    <div>    <h1 style="margin-left: 20px;">Dr. B Baron Sam ,&nbsp;B.Tech, B.Ed, M.Tech, MBA, PhD</h1>
+
+    <div class="div2">
+        <div class="div2im">
+            <img src="sam12.jpg" alt="Baron Sam" class="sa1">
+            <h2 style="text-align: center;">Dr. &nbsp;B Baron Sam</h2>
+        </div>
+    <div class="h112">
+        <h1 style="text-align: center; font-size: xx-large;"> About:</h1>
+
+    <h3 style="margin-left:40px; font-size:25px; text-align: justify; margin-right: 5px;">
+        Hello, I am Baron Sam, an accomplished educator with a diverse academic background
+        and nearly <span id="years"></span> years of experience in higher education. My journey has led me through 
+        esteemed institutions such as Ponjesly College of Engineering, Sathyabama University, 
+        and VelTech Multitech Dr.RR & Dr.SR Engineering College. With a Ph.D. in Medical Image 
+        Processing, an MBA in Human Resource Management, and extensive expertise in computer science
+        and engineering. I am passionate about imparting knowledge and nurturing the next generation
+        of professionals. I am committed to empowering students to excel both academically and
+        professionally. I am excited about the opportunity to further engage with students, colleagues,
+        and industry partners in a dynamic and challenging environment, where I can continue to evolve
+        as an educator and make a lasting impact on the field of higher education.<br></h3>
+</div>
+</div>
+    
+<br></div>
+
+</div><br><br>
+
+<div class="div4">
+    <br>
+    <div>
+        <h1 style="text-align: center;">Profile</h1>
+        <h1 style="margin: 30px;">Dr. B Baron Sam,  &nbsp;B.Tech, B.Ed, M.Tech, MBA, PhD</h1>
+        
+        <h2>
+            <ul class="pul" style="list-style-type: none">
+                <li>Designation <span class="txtspce" style="margin: 80px;">:</span> <span style="margin: 0px;"> Associate Professor at Ponjesly College Of Engineering</span></li><br>
+                <li>Qualification<span class="txtspce" style="margin: 75px;">:</span><span style="margin: 10px;">B.Tech, B.Ed, M.Tech, MBA, PhD</span></li><br>
+                <li>Career Journey<span class="txtspce" style="margin: 50px;">:</span> <span style="margin:30px;">2011 &nbsp; to &nbsp; Present</span></li><br>
+                <li>Experience<span class="txtspce" style="margin: 93px;">:</span> <span style="margin: -15px;"> 13 Years</span></li><br>
+                <li>Publications<span class="txtspce" style="margin: 78px;">:</span> <span style="margin: 2px;">31</span></li><br>
+             
+
+            </ul>
+        </h2>
+        
+    </div><br>
+   </div>
+   
+<script>
+    // Function to update the years of experience
+    function updateYearsOfExperience() {
+        // Get the current year
+        var currentYear = new Date().getFullYear();
+
+        // Initial value and total experience years
+        var initialValue = 2011; // Initial year of experience
+        var totalExperience = currentYear - initialValue;
+
+        // Update the HTML element with the total years of experience
+        document.getElementById('years').textContent = totalExperience;
+    }
+
+    // Call the function initially to display the years of experience
+    updateYearsOfExperience();
+
+    // Call the function every year to update the years of experience
+    setInterval(updateYearsOfExperience, 1000 * 60 * 60 * 24 * 365); // Update every year (approximate)
+</script>
+<br>
+</section>
+<br>
+<footer>
+    <div class="di1">
+        <div><br><h2 style="text-align: center;">Our Slogan</h2>
+            <!--<h2 style="text-align: center;">"Harmonizing Hearts, Coding Dreams: Where Love Leads, Peaceful Paths Unfold."</h1>-->
+                <h2 style="text-align: center;">"Syncing Souls, Crafting Futures: Where Devotion Directs, Serene Roads Unveil."</h2>
+            <br>
+            <h2 style="text-align: center;"> Contact for Further Requirements</h2>
+         <div class="icons"> <a href="mailto:baronsam1988@gmail.com" title="Gmail ">
+               <div style="background-color:none;"> <img src="gmail.png" class="im3"></div>
+            </a>
+            <a href="https://www.facebook.com/bbaron.sam?mibextid=ZbWKwL" title="Facebook"><img src="fb.webp" class="im4"></a>
+            <a href="https://youtube.com/@baronsam7904?si=cn5OHnMne8mR5sdH" title="YouTube"> <img src="yt.webp" class="im6"></a>
+            <a href="https://www.instagram.com/bbaronsam?igsh=Y2txZHQ1dnplNmx1" title="Instagram"> <img src="insta.webp" class="im5"></a></div>  
+
+        </div>
+        <div class="di2" >
+            <br>
+            <h2 style="text-align: center;"> Portfolio Project</h2>
+            
+            <div class="di22"> <h3 title="Project Guide  ">Guided by: B Baron Sam</h3></div>
+            <div class="di23"><h3 title="Student">Author: Claire Rebecca J</h3></div>
+            <h3><p>&copy; 2024  &nbsp; All rights reserved.</p></h3>
+            
+        </div>
+        <br><br>
+
+    </div>
+   
+</footer>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body
+{
+    /*background-color: rgb(120, 203, 174)*/
+   /* background-image:url("im5.jpg");*/
+    background-image:url("h4.jpg");
+
+    background-repeat:no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+   background-size: cover;
+    color: aliceblue;
+    padding: 0;
+    object-fit: cover;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+}
+.d1
+{
+    background-image:url("e1.jpg");
+
+}

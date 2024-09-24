@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baron Sam Portfolio</title>
+    <link rel="stylesheet" href="foli.css">
+</head>
+
+<body>
+ <header class="d1">  
+ <div class="d1">
+    <b class="port">PORTFOLIO</b>
+    
+   
+    <button title="Guide: Baron Sam" class="bim">
+        <img src="guide.jpg" alt="Guide" class="im">
+        </button>
+        <button title="Author: Claire Rebecca" class="bim2">
+            <div class="dim"><img src="author2.webp" alt="Author" class="im2"></div>
+        </button>
+ </div>
+</header> 
+<section>
+<div class="d2">
+<nav>
+    <div class="navi">
+        <b> <ol>
+            <li class="c"><a href="about.html">About</a></li>
+            <li class="c"><a href="publications.html">Publications</a></li>
+            <li class="c"><a href="education.html">Education</a></li>
+            <li class="c"><a class="active" href="Academics.html" >Academic Experience</a></li>
+            <li class="c"><a href="index.html">Home</a></li>
+
+            
+        </ol></b>
+    </div>
+</nav> </div>
+<script>
+    // Get all navbar links
+    var navbarLinks = document.querySelectorAll('.navi a');
+    
+    function removeActiveClass() {
+  for (var i = 0; i < navbarLinks.length; i++) {
+    navbarLinks[i].classList.remove('active');
+  }
+}
+
+// Add event listener to each link
+for (var i = 0; i < navbarLinks.length; i++) {
+  navbarLinks[i].addEventListener('click', function(event) {
+    // Prevent default action
+    event.preventDefault();
+
+    // Remove 'active' class from all links
+    removeActiveClass();
+
+    // Add 'active' class to clicked link
+    this.classList.add('active');
+
+    // Navigate to the link
+    window.location.href = this.href;
+
+  });
+}
+</script>
+    
+<br><br>
+<br><br>
+<br><br>
+<div class="pro">
+    <br>
+
+
+<h1 style="font-size: xx-large; text-align: center;" >Professional Experience</h1>
+
+<div class="ac1">
+    <br>  
+    <div class="dm1">
+        <img src="dmi.avif" alt="DMI" class="dmi">
+    </div>  <br>
+    <div class="dm2">
+        <h1 style="text-align: center; margin-left: 60px;">DMI College Of Engineering, Aralvaimozhi</h1>
+        <h2><ul>
+            <li>2024 - Present :</li><br>
+            <li>Head Of the Department in ()</li><br>
+        </ul></h2>
+    </div> 
+</div>  
+
+<div class="ac2">
+    <div class="pj1"> 
+        <img src="pjce.jpeg" alt="Ponjesly" class="pj">
+
+    </div>
+    <div class="pj2">
+        <h1 style="text-align: center;">Ponjesly College of Engineering, Nagercoil.</h1>
+        <h2><ul>
+           
+            <li>2018 – 2024 : 5.9 years Experience in Ponjesly College of Engineering, Nagercoil.</li><br>
+            <li>Assistant HoD for First Year</li><br>
+            <li> As an Associate Professor in Computer Science Department.</li><br>
+        </ul></h2>
+
+    </div>
+</div>
+
+<div class="ac3">
+    <div class="st1">
+        <img src="sb.jpg" alt="Sathyabama" class="st">
+
+    </div>
+    <div class="st2">
+        <h1 style="text-align: center;">Sathyabama University, Chennai</h1>
+       <h2><ul>
+            <li>
+                2013 – 2018 : 4.6 years Experience in Sathyabama university, Chennai.
+        </li><br>
+        <li>As an Assistant Professor and IEEE Co-ordinator in Computer Science Department.</li><br>
+    </ul>
+</h2> 
+
+
+    </div>
+</div>
+
+<div class="ac4">
+    <div class="v1">
+        <img src="vel.jpg" alt="VelTech" class="vt">
+
+    </div>
+    <div class="v2">
+        <h1 style="text-align: center;">VelTech Multitech Dr.RR & Dr.SR Engineering College, Chennai.</h1>
+        <h2>
+            <ul>
+                <li>2011 – 2013 : 1.8 years in VelTech Multitech Dr.RR& Dr.SR Engineering College, Chennai.
+                   </li><br>
+                <li> As an Assistant Professor, Mentoring and Coordinating with reputed industries<br>
+                    / Institutions for activities related to Inplant Training / Project Assignments.</li><br>
+            </ul>
+        </h2>
+    </div>
+</div>
+<br>
+</div>
+
+</section>
+</body>
+</html>

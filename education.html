@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baron Sam Portfolio</title>
+    <link rel="stylesheet" href="foli.css">
+</head>
+
+<body>
+ <header class="d1">  
+ <div class="d1">
+    <b class="port">PORTFOLIO</b>
+    
+   
+    <button title="Guide: Baron Sam" class="bim">
+        <img src="guide.jpg" alt="Guide" class="im">
+        </button>
+        <button title="Author: Claire Rebecca" class="bim2">
+            <div class="dim"><img src="author2.webp" alt="Author" class="im2"></div>
+        </button>
+ </div>
+</header> 
+<section>
+<div class="d2">
+<nav>
+    <div class="navi">
+       <b><ol>
+            <li class="c"><a href="about.html">About</a></li>
+            <li class="c"><a href="publications.html">Publications</a></li>
+            <li class="c"><a  class="active" href="education.html">Education</a></li>
+            <li class="c"><a href="Academics.html" >Academic Experience</a></li>
+            <li class="c"><a href="index.html">Home</a></li>
+
+            
+        </ol></b> 
+    </div>
+</nav> </div>
+<script>
+    // Get all navbar links
+    var navbarLinks = document.querySelectorAll('.navi a');
+    
+    function removeActiveClass() {
+  for (var i = 0; i < navbarLinks.length; i++) {
+    navbarLinks[i].classList.remove('active');
+  }
+}
+
+// Add event listener to each link
+for (var i = 0; i < navbarLinks.length; i++) {
+  navbarLinks[i].addEventListener('click', function(event) {
+    // Prevent default action
+    event.preventDefault();
+
+    // Remove 'active' class from all links
+    removeActiveClass();
+
+    // Add 'active' class to clicked link
+    this.classList.add('active');
+
+    // Navigate to the link
+    window.location.href = this.href;
+   
+
+  });
+}
+</script>
+    
+<br><br>
+<br><br>
+<br>
+<br>
+<div class="ed">
+    <div class="ed1"><br><br>
+        <br><br><br>
+        <h1 style="text-align: center; font-size: xx-large;">Educational Qualification</h1><br><br>
+        <h2>
+            <ol class="ed2">
+                <li>B.Tech :Information Technology</li><br>
+                    <li>M.Tech : Computer Science and Engineering</li><br>
+                    <li>MBA : Human Resource Management</li><br>
+                    <li>Ph.D : Medical Image Processing</li><br>
+                    <li>B.Ed : Computer Science</li><br>
+            </ol>
+            <br>
+        </h2><br><br>
+    </div><br><br><br><br><br><br><br>
+</div><br><br>
+<br>
+<div class ="d5"><br>
+    <div>
+        <br>
+        <h1 style="text-align: center; font-size: xx-large;">Educational Profile</h1>
+        <div class="d52">
+        <h3>
+            <ul class="list3">
+               <li >Bachelor of Education in Computer Science from Tamil Nadu Teachers 
+                Education University, Chennai in 2023 </li> <br>
+ 
+                <li>Ph.D in Medical Image Restoration in MR/CT Images Of Human Abdomen, 
+                Sathyabama University, Chennai in 2021. </li>  <br>
+ 
+                <li>Master of Business Administration in Human Resource Management from 
+                Annamalai University, Chidambaram in 2013. </li> <br>
+                
+                <li>M.Tech in Computer Science Engineering with 8.58 CGPA From Veltech 
+                Technical university, Chennai in 2011. </li> <br>
+                    
+                <li>B.Tech in Information Technology with 66% from CSI Institute of Technology, 
+                Thovalai affiliated to Anna University, Chennai in 2009.</li>  <br>
+                
+                <li>HSC from CSI VV School Irenepuram with 82% in April 2005. </li> <br>
+                
+                <li>SSLC from St.Mary Goretty School Manalikarai with 77% in April 2003. </li> <br>
+            </ul>
+            <br>
+        </h3></div>
+    </div>
+</section>
+</body>
+</html>
